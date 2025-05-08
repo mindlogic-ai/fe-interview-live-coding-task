@@ -1,0 +1,702 @@
+{
+  "email_placeholder": {
+    "ko": "이메일을 입력하세요",
+    "en": "Enter your email",
+    "zh": "请输入您的电子邮件",
+    "ja": "メールアドレスを入力してください",
+    "es": "Introduce tu correo electrónico"
+  },
+  "name_placeholder": {
+    "ko": "이름",
+    "en": "Name",
+    "zh": "姓名",
+    "ja": "名前",
+    "es": "Nombre"
+  },
+  "member_groups": {
+    "ko": "추가 그룹",
+    "en": "Additional Group",
+    "zh": "附加组",
+    "ja": "追加グループ",
+    "es": "Grupo Adicional"
+  },
+  "optional": {
+    "ko": "(선택 사항)",
+    "en": "(optional)",
+    "zh": "（可选）",
+    "ja": "（オプション）",
+    "es": "(opcional)"
+  },
+  "previous_7_days": {
+    "ko": "최근 7일",
+    "en": "Last 7 days",
+    "zh": "最近7天",
+    "ja": "最近7日間",
+    "es": "Últimos 7 días"
+  },
+  "previous_30_days": {
+    "ko": "최근 30일",
+    "en": "Last 30 days",
+    "zh": "最近30天",
+    "ja": "最近30日間",
+    "es": "Últimos 30 días"
+  },
+  "number_of_tokens": {
+    "ko": "토큰 할당량",
+    "en": "Token allocation",
+    "zh": "令牌分配",
+    "ja": "トークン割り当て",
+    "es": "Asignación de tokens"
+  },
+  "error_unknown": {
+    "ko": "알 수 없는 에러가 발생하였습니다. 다시 시도해 주세요.",
+    "en": "An unknown error has occurred. Please try again.",
+    "zh": "发生了未知错误.请重试.",
+    "ja": "不明なエラーが発生しました.もう一度お試しください.",
+    "es": "Ha ocurrido un error desconocido. Por favor, inténtelo de nuevo."
+  },
+  "korean": {
+    "ko": "한국어",
+    "en": "Korean",
+    "zh": "韩语",
+    "ja": "韓国語",
+    "es": "Coreano"
+  },
+  "english": {
+    "ko": "영어",
+    "en": "English",
+    "zh": "英语",
+    "ja": "英語",
+    "es": "Inglés"
+  },
+  "language": {
+    "ko": "언어",
+    "en": "Language",
+    "zh": "语言",
+    "ja": "言語",
+    "es": "Idioma"
+  },
+  "terms_of_service": {
+    "ko": "서비스 약관",
+    "en": "Terms of Service",
+    "zh": "服务条款",
+    "ja": "サービス利用規約",
+    "es": "Términos de servicio"
+  },
+  "privacy_policy": {
+    "ko": "개인정보 보호정책",
+    "en": "Privacy Policy",
+    "zh": "隐私政策",
+    "ja": "プライバシーポリシー",
+    "es": "Política de Privacidad"
+  },
+  "continue": {
+    "ko": "다음",
+    "en": "Continue",
+    "zh": "继续",
+    "ja": "続ける",
+    "es": "Continuar"
+  },
+  "filters": {
+    "ko": "필터",
+    "en": "Filter",
+    "zh": "过滤器",
+    "ja": "フィルター",
+    "es": "Filtro"
+  },
+  "contact_modal_success_toast": {
+    "ko": "문의가 접수되었습니다. 관리자 팀이 곧 연락드릴 것입니다.",
+    "en": "Your inquiry has been received. The admin team will get in touch shortly.",
+    "zh": "您的咨询已收到.管理员团队将很快与您联系.",
+    "ja": "お問い合わせを受け付けました.管理チームがすぐにご連絡いたします.",
+    "es": "Hemos recibido su consulta. El equipo de administración se pondrá en contacto con usted en breve."
+  },
+  "contact_modal_error_toast": {
+    "ko": "문의 전송 중 오류가 발생했습니다. 나중에 다시 시도해 주세요.",
+    "en": "There was an error sending your inquiry. Please try again later.",
+    "zh": "发送您的询问时出现错误.请稍后再试.",
+    "ja": "お問い合わせの送信中にエラーが発生しました.後でもう一度お試しください.",
+    "es": "Hubo un error al enviar su consulta. Por favor, inténtelo de nuevo más tarde."
+  },
+  "contact_modal_heading": {
+    "ko": "문의하기",
+    "en": "Contact us",
+    "zh": "联系我们",
+    "ja": "お問い合わせ",
+    "es": "Contáctanos"
+  },
+  "mode": {
+    "ko": "모드",
+    "en": "mode",
+    "zh": "模式",
+    "ja": "モード",
+    "es": "modo"
+  },
+  "contact_modal_description": {
+    "ko": "문제가 발생하셨나요? 알려주시면 최대한 빨리 답변드리겠습니다.",
+    "en": "Experiencing issues? Let us know and we'll get back to you as soon as we can.",
+    "zh": "遇到问题了吗？请告诉我们，我们会尽快回复您.",
+    "ja": "問題が発生しましたか？お知らせいただければ、できるだけ早く対応いたします.",
+    "es": "¿Tienes problemas? Háznoslo saber y te responderemos lo antes posible."
+  },
+  "contact_modal_inquiry_label": {
+    "ko": "문의",
+    "en": "Inquiry",
+    "zh": "询问",
+    "ja": "問い合わせ",
+    "es": "Consulta"
+  },
+  "email": {
+    "ko": "이메일",
+    "en": "Email",
+    "zh": "电子邮件",
+    "ja": "メール",
+    "es": "Correo electrónico"
+  },
+  "contact_modal_phone_label": {
+    "ko": "전화기",
+    "en": "Phone",
+    "zh": "电话",
+    "ja": "電話",
+    "es": "Teléfono"
+  },
+  "send": {
+    "ko": "전송하기",
+    "en": "Send",
+    "zh": "发送",
+    "ja": "送信",
+    "es": "Enviar"
+  },
+  "signout_error": {
+    "ko": "로그아웃하는 중 오류가 발생했습니다. 정보를 안전하게 보호하려면 캐시를 지워주세요.",
+    "en": "There was an error signing you out. Please clear your cache to keep your information safe.",
+    "zh": "注销时发生错误.请清除缓存以确保信息安全.",
+    "ja": "サインアウト中にエラーが発生しました.情報を安全に保つためにキャッシュをクリアしてください.",
+    "es": "Hubo un error al cerrar sesión. Por favor, borra tu caché para mantener tu información segura."
+  },
+  "edit_profile": {
+    "ko": "프로필 수정",
+    "en": "Edit profile",
+    "zh": "编辑个人资料",
+    "ja": "プロフィールを編集",
+    "es": "Editar perfil"
+  },
+  "login": {
+    "ko": "로그인",
+    "en": "Login",
+    "zh": "登录",
+    "ja": "ログイン",
+    "es": "Iniciar sesión"
+  },
+  "sign_out": {
+    "ko": "로그아웃",
+    "en": "Sign out",
+    "zh": "退出登录",
+    "ja": "ログアウト",
+    "es": "Cerrar sesión"
+  },
+  "delete": {
+    "ko": "삭제",
+    "en": "Delete",
+    "zh": "删除",
+    "ja": "削除",
+    "es": "Eliminar"
+  },
+  "name": {
+    "ko": "이름",
+    "en": "Name",
+    "zh": "名字",
+    "ja": "名前",
+    "es": "Nombre"
+  },
+  "edit": {
+    "ko": "수정",
+    "en": "Edit",
+    "zh": "编辑",
+    "ja": "編集",
+    "es": "Editar"
+  },
+  "password": {
+    "ko": "비밀번호",
+    "en": "Password",
+    "zh": "密码",
+    "ja": "パスワード",
+    "es": "Contraseña"
+  },
+  "close": {
+    "ko": "닫기",
+    "en": "Close",
+    "zh": "关闭",
+    "ja": "閉じる",
+    "es": "Cerrar"
+  },
+  "chatbots": {
+    "ko": "챗",
+    "en": "Chat",
+    "zh": "聊天",
+    "ja": "チャット",
+    "es": "Chat"
+  },
+  "studio": {
+    "ko": "스튜디오",
+    "en": "Studio",
+    "zh": "工作室",
+    "ja": "スタジオ",
+    "es": "Estudio"
+  },
+  "store": {
+    "ko": "스토어",
+    "en": "Store",
+    "zh": "商店",
+    "ja": "ストア",
+    "es": "Tienda"
+  },
+  "route_to_administrator": {
+    "ko": "관리자 페이지",
+    "en": "Admin console",
+    "zh": "管理页面",
+    "ja": "管理者ページ",
+    "es": "Consola de administración"
+  },
+  "public": {
+    "ko": "공개",
+    "en": "Public",
+    "zh": "公开",
+    "ja": "公開",
+    "es": "Público"
+  },
+  "private": {
+    "ko": "비공개",
+    "en": "Private",
+    "zh": "私密",
+    "ja": "非公開",
+    "es": "Privado"
+  },
+  "get_started": {
+    "ko": "시작하기",
+    "en": "Get Started",
+    "zh": "开始",
+    "ja": "始める",
+    "es": "Comenzar"
+  },
+  "next": {
+    "ko": "다음",
+    "en": "Next",
+    "zh": "下一个",
+    "ja": "次",
+    "es": "Siguiente"
+  },
+  "copy": {
+    "ko": "복사",
+    "en": "Copy",
+    "zh": "复制",
+    "ja": "コピー",
+    "es": "Copiar"
+  },
+  "copied": {
+    "ko": "복사 완료",
+    "en": "Copy completed",
+    "zh": "复制完成",
+    "ja": "コピー完了",
+    "es": "Copia completada"
+  },
+  "see_more": {
+    "ko": "더보기",
+    "en": "See more",
+    "zh": "查看更多",
+    "ja": "もっと見る",
+    "es": "Ver más"
+  },
+  "previous": {
+    "ko": "이전",
+    "en": "Previous",
+    "zh": "以前",
+    "ja": "前",
+    "es": "Anterior"
+  },
+  "go_next_page_button": {
+    "ko": "다음",
+    "en": "Next",
+    "zh": "下一个",
+    "ja": "次",
+    "es": "Siguiente"
+  },
+  "confirm": {
+    "ko": "확인",
+    "en": "Confirm",
+    "zh": "确认",
+    "ja": "確認",
+    "es": "Confirmar"
+  },
+  "permission_denied_page": {
+    "ko": "접근이 제한된 페이지입니다.",
+    "en": "This is a restricted access page.",
+    "zh": "这是一个访问受限的页面.",
+    "ja": "アクセスが制限されたページです.",
+    "es": "Esta es una página de acceso restringido."
+  },
+  "contact_us": {
+    "ko": "문의하기",
+    "en": "Contact Us",
+    "zh": "联系我们",
+    "ja": "お問い合わせ",
+    "es": "Contáctenos"
+  },
+  "notification": {
+    "ko": "공지사항",
+    "en": "Notice",
+    "zh": "通知",
+    "ja": "お知らせ",
+    "es": "Aviso"
+  },
+  "cancel": {
+    "ko": "취소",
+    "en": "Cancel",
+    "zh": "取消",
+    "ja": "キャンセル",
+    "es": "Cancelar"
+  },
+  "create": {
+    "ko": "생성하기",
+    "en": "Create",
+    "zh": "创建",
+    "ja": "作成する",
+    "es": "Crear"
+  },
+  "input_file_field_instructions": {
+    "ko": "파일 가져오기",
+    "en": "Import File",
+    "zh": "导入文件",
+    "ja": "ファイルをインポート",
+    "es": "Importar archivo"
+  },
+  "remove": {
+    "ko": "제거",
+    "en": "Remove",
+    "zh": "移除",
+    "ja": "削除",
+    "es": "Eliminar"
+  },
+  "request": {
+    "ko": "요청",
+    "en": "Request",
+    "zh": "请求",
+    "ja": "リクエスト",
+    "es": "Solicitud"
+  },
+  "reject": {
+    "ko": "거절",
+    "en": "Reject",
+    "zh": "拒绝",
+    "ja": "拒否",
+    "es": "Rechazar"
+  },
+  "approve": {
+    "ko": "승인",
+    "en": "Approve",
+    "zh": "批准",
+    "ja": "承認する",
+    "es": "Aprobar"
+  },
+  "author": {
+    "ko": "저자",
+    "en": "Author",
+    "zh": "作者",
+    "ja": "著者",
+    "es": "Autor"
+  },
+  "approved": {
+    "ko": "승인됨",
+    "en": "Approved",
+    "zh": "已批准",
+    "ja": "承認されました",
+    "es": "Aprobado"
+  },
+  "rejected": {
+    "ko": "거절됨",
+    "en": "Rejected",
+    "zh": "拒绝",
+    "ja": "拒否されました",
+    "es": "Rechazado"
+  },
+  "pending": {
+    "ko": "승인 검토중",
+    "en": "Pending",
+    "zh": "待处理",
+    "ja": "保留中",
+    "es": "Pendiente"
+  },
+  "default_member_group": {
+    "ko": "기본 그룹",
+    "en": "Default group",
+    "zh": "默认组",
+    "ja": "デフォルトグループ",
+    "es": "Grupo predeterminado"
+  },
+  "update": {
+    "ko": "수정하기",
+    "en": "Update",
+    "zh": "更新",
+    "ja": "更新",
+    "es": "Actualizar"
+  },
+  "current": {
+    "ko": "현재",
+    "en": "Current",
+    "zh": "当前",
+    "ja": "現在",
+    "es": "Actual"
+  },
+  "proposed": {
+    "ko": "수정 요청",
+    "en": "Proposed",
+    "zh": "提议",
+    "ja": "提案された",
+    "es": "Propuesto"
+  },
+  "back": {
+    "ko": "뒤로가기",
+    "en": "Go back",
+    "zh": "返回",
+    "ja": "戻る",
+    "es": "Regresar"
+  },
+  "submit": {
+    "ko": "확인",
+    "en": "Submit",
+    "zh": "提交",
+    "ja": "提出",
+    "es": "Enviar"
+  },
+  "form_name": {
+    "ko": "이름",
+    "en": "Chatbot Name",
+    "zh": "聊天机器人名称",
+    "ja": "チャットボット名",
+    "es": "Nombre del chatbot"
+  },
+  "form_key_features": {
+    "ko": "주요 특징",
+    "en": "Chatbot description",
+    "zh": "聊天机器人说明",
+    "ja": "チャットボットの説明",
+    "es": "Descripción del chatbot"
+  },
+  "form_system_instructions": {
+    "ko": "프롬프트",
+    "en": "Chatbot instructions",
+    "zh": "聊天机器人指令",
+    "ja": "チャットボットの指示",
+    "es": "Instrucciones del chatbot"
+  },
+  "form_model": {
+    "ko": "언어 모델",
+    "en": "Language model",
+    "zh": "语言模型",
+    "ja": "言語モデル",
+    "es": "Modelo de lenguaje"
+  },
+  "form_temperature": {
+    "ko": "온도",
+    "en": "AI Temperature",
+    "zh": "AI温度",
+    "ja": "AI温度",
+    "es": "Temperatura de IA"
+  },
+  "form_top_p": {
+    "ko": "Top P",
+    "en": "Top P",
+    "zh": "顶级P",
+    "ja": "トップP",
+    "es": "P superior"
+  },
+  "form_attached_filed": {
+    "ko": "첨부 파일",
+    "en": "Attachment",
+    "zh": "附件",
+    "ja": "添付ファイル",
+    "es": "Adjunto"
+  },
+  "error_400": {
+    "ko": "요청 내용 관련 오류가 있었습니다. 입력 내용을 다시 확인해 주시거나 나중에 다시 시도해주세요.",
+    "en": "There was an error related to the request content. Please check your input again or try again later.",
+    "zh": "请求内容出现错误。请检查您的输入或稍后再试。",
+    "ja": "リクエスト内容に関するエラーが発生しました。入力内容を再確認するか、後でもう一度お試しください。",
+    "es": "Hubo un error relacionado con el contenido de la solicitud. Por favor, revise su entrada o intente nuevamente más tarde."
+  },
+  "error_401": {
+    "ko": "로그인이 필요합니다. 로그인 후 다시 시도해 주세요.",
+    "en": "Login is required. Please try again after logging in.",
+    "zh": "需要登录.请登录后再试.",
+    "ja": "ログインが必要です.ログイン後に再試行してください.",
+    "es": "Se requiere inicio de sesión. Por favor, inténtelo de nuevo después de iniciar sesión."
+  },
+  "error_403": {
+    "ko": "접근 권한이 필요합니다. 관리자에게 문의해 주세요.",
+    "en": "Access permission is required. Please contact the administrator.",
+    "zh": "需要访问权限.请联系管理员.",
+    "ja": "アクセス権限が必要です.管理者にお問い合わせください.",
+    "es": "Se requiere permiso de acceso. Por favor, contacte al administrador."
+  },
+  "error_404": {
+    "ko": "존재하지 않는 데이터입니다. 잠시 후 다시 시도해 주세요.",
+    "en": "The data does not exist.",
+    "zh": "不存在的数据.",
+    "ja": "存在しないデータです.",
+    "es": "Los datos no existen."
+  },
+  "error_422": {
+    "ko": "요청 데이터에 오류가 있습니다. 관리자에게 문의해 주세요. (오류 코드: 422)",
+    "en": "There is an issue with the data format. Please try again.",
+    "zh": "数据格式有问题.请重试.",
+    "ja": "データ形式に問題があります.もう一度お試しください.",
+    "es": "Hay un problema con el formato de los datos. Por favor, inténtelo de nuevo."
+  },
+  "error_500": {
+    "ko": "서버상의 에러가 발생하였습니다. 잠시후 다시 시도해 주세요.",
+    "en": "An error has occurred on the server. Please try again later.",
+    "zh": "服务器发生错误.请稍后再试.",
+    "ja": "サーバーでエラーが発生しました.しばらくしてから再試行してください.",
+    "es": "Se ha producido un error en el servidor. Por favor, inténtelo de nuevo más tarde."
+  },
+  "file_upload_400": {
+    "ko": "유효한 파일 형식이 아닙니다. 파일 확장자와 크기를 확인 후 다시 시도해 주세요.",
+    "en": "This is not a valid file format. Please check the file extension and size, then try again.",
+    "zh": "这不是有效的文件格式.请检查文件扩展名和大小，然后重试.",
+    "ja": "有効なファイル形式ではありません.ファイルの拡張子とサイズを確認してから、もう一度お試しください.",
+    "es": "Este no es un formato de archivo válido. Por favor, verifica la extensión y el tamaño del archivo, y vuelve a intentarlo."
+  },
+  "file_upload_403": {
+    "ko": "파일 업로드 권한이 없습니다. 관리자에게 문의해 주세요.",
+    "en": "You do not have permission to upload files. Please contact the administrator.",
+    "zh": "您没有上传文件的权限。请联系管理员。",
+    "ja": "ファイルをアップロードする権限がありません。管理者にお問い合わせください。",
+    "es": "No tienes permiso para subir archivos. Por favor, contacta con el administrador."
+  },
+  "file_upload_422": {
+    "ko": "파일 업로드 요청 데이터에 오류가 있습니다. 관리자에게 문의해 주세요. (오류 코드: 422)",
+    "en": "There is an error in the file upload request data. Please contact the administrator. (Error code: 422)",
+    "zh": "文件上传请求数据有误.请联系管理员.（错误代码：422）",
+    "ja": "ファイルアップロード要求データにエラーがあります.管理者にお問い合わせください.（エラーコード：422）",
+    "es": "Hay un error en los datos de solicitud de carga de archivos. Por favor, contacte al administrador. (Código de error: 422)"
+  },
+  "file_upload_500": {
+    "ko": "파일 업로드에 문제가 발생하였습니다. 잠시 후 다시 시도해 주세요.",
+    "en": "There was a problem with the file upload. Please try again later.",
+    "zh": "文件上传出现问题.请稍后再试.",
+    "ja": "ファイルのアップロードに問題が発生しました.しばらくしてから再試行してください.",
+    "es": "Hubo un problema con la carga del archivo. Por favor, inténtelo de nuevo más tarde."
+  },
+  "untitled": {
+    "ko": "제목없음",
+    "en": "Untitled",
+    "zh": "无标题",
+    "ja": "無題",
+    "es": "Sin título"
+  },
+  "save": {
+    "ko": "저장",
+    "en": "Save",
+    "zh": "保存",
+    "ja": "保存",
+    "es": "Guardar"
+  },
+  "get_tenant_data_401": {
+    "ko": "tenant 정보가 존재하지 않습니다.",
+    "en": "Tenant information does not exist.",
+    "zh": "租户信息不存在.",
+    "ja": "テナント情報が存在しません.",
+    "es": "La información del inquilino no existe."
+  },
+  "saving": {
+    "ko": "저장 중...",
+    "en": "Saving...",
+    "zh": "保存中...",
+    "ja": "保存中...",
+    "es": "Guardando..."
+  },
+  "reset": {
+    "ko": "초기화",
+    "en": "Initialization",
+    "zh": "初始化",
+    "ja": "初期化",
+    "es": "Inicialización"
+  },
+  "default_group": {
+    "ko": "기본 그룹",
+    "en": "Default group",
+    "zh": "默认组",
+    "ja": "デフォルトグループ",
+    "es": "Grupo predeterminado"
+  },
+  "attach_file": {
+    "ko": "파일 첨부",
+    "en": "Attach file",
+    "zh": "附加文件",
+    "ja": "ファイルを添付",
+    "es": "Adjuntar archivo"
+  },
+  "pagination_range_text": {
+    "ko": "{num_total_items}개 중 {range_start} - {range_end} 표시 중",
+    "en": "Displaying {range_start} - {range_end} of {num_total_items}",
+    "zh": "显示第 {range_start} - {range_end} 项，共 {num_total_items} 项",
+    "ja": "{num_total_items} 件中 {range_start} - {range_end} を表示中",
+    "es": "Mostrando {range_start} - {range_end} de {num_total_items}"
+  },
+  "pagination_items_per_page": {
+    "ko": "항목 수",
+    "en": "items per page",
+    "zh": "每页项目数",
+    "ja": "ページごとの項目数",
+    "es": "elementos por página"
+  },
+  "past": {
+    "ko": "이전",
+    "en": "Past",
+    "zh": "过去",
+    "ja": "以前の",
+    "es": "Pasado"
+  },
+  "export": {
+    "ko": "다운로드",
+    "en": "Export",
+    "zh": "다운로드",
+    "ja": "ダウンロード",
+    "es": "Exportar"
+  },
+  "today": {
+    "ko": "오늘",
+    "en": "Today",
+    "zh": "今天",
+    "ja": "今日",
+    "es": "Hoy"
+  },
+  "studio_page_description": {
+    "ko": "나만의 챗봇 만들기",
+    "en": "Create your own chatbot",
+    "zh": "자신만의 챗봇을 만들어보세요",
+    "ja": "自分だけのチャットボットを作成する",
+    "es": "Crea tu propio chatbot"
+  },
+  "store_page_description": {
+    "ko": "다른 챗봇 둘러보기",
+    "en": "Browse other chatbots",
+    "zh": "其他聊天机器人浏览",
+    "ja": "他のチャットボットを閲覧",
+    "es": "Explorar otros chatbots"
+  },
+  "code_markdown_raw": {
+    "ko": "원문",
+    "en": "Raw",
+    "zh": "原文",
+    "ja": "原文",
+    "es": "Crudo"
+  },
+  "code_markdown_preview": {
+    "ko": "미리보기",
+    "en": "Preview",
+    "zh": "预览",
+    "ja": "プレビュー",
+    "es": "Vista previa"
+  }
+}
