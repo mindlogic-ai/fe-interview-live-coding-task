@@ -3,7 +3,7 @@ import styles from "../page.module.css";
 import { User } from "../types";
 
 async function getUserData(): Promise<User> {
-  const res = await fetch("http://localhost:3001/api/user", {
+  const res = await fetch("http://localhost:3000/api/user", {
     next: { revalidate: 0 },
   });
 

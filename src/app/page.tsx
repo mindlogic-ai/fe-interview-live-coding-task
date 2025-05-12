@@ -7,12 +7,14 @@ import UserGreeting from "./components/UserGreeting";
 import ErrorBoundary from "./components/ErrorBoundary";
 
 export default async function Home() {
-  // const isFirstLoad = localStorage.getItem("isFirstLoad");
-  // if (!isFirstLoad) {
-  //   localStorage.setItem("isFirstLoad", "true");
-  // }
+  const isFirstLoad = localStorage.getItem("isFirstLoad");
+  if (!isFirstLoad) {
+    localStorage.setItem("isFirstLoad", "true");
+  }
 
-  const response = await fetch("http://localhost:3001/api/products");
+  const response = await fetch("http://localhost:3000/api/products", {
+    method: "POST",
+  });
   const { products } = await response.json();
 
   return (
