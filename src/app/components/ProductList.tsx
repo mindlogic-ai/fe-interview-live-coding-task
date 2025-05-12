@@ -1,3 +1,5 @@
+"use client";
+
 // File: app/components/ProductList.tsx
 import styles from "../page.module.css";
 import { Product } from "../types";

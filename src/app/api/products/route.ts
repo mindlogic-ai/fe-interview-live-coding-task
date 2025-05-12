@@ -1,18 +1,48 @@
 // File: app/api/products/route.ts
 import { NextResponse } from "next/server";
-import { Product } from "../../types";
+import { Product } from "./Product.types";
 
+const SAMPLE_PRODUCTS: Product[] = [
+  {
+    id: 1,
+    title: "Product 1",
+    price: 100,
+    currency: "USD",
+    inventory: 100,
+    popularity: Math.random() * 100,
+  },
+  {
+    id: 2,
+    title: "Product 2",
+    price: 200,
+    currency: "USD",
+    inventory: 200,
+    popularity: Math.random() * 100,
+  },
+  {
+    id: 3,
+    title: "Product 3",
+    price: 300,
+    currency: "USD",
+    inventory: 300,
+    popularity: Math.random() * 100,
+  },
+  {
+    id: 4,
+    title: "Product 4",
+    price: 400,
+    currency: "USD",
+    inventory: 400,
+    popularity: Math.random() * 100,
+  },
+];
+
+// With App Router, you export HTTP method functions directly
 export async function GET() {
-  const res = await fetch("https://api.example.com/products");
-  const data = await res.json();
+  return NextResponse.json({ products: SAMPLE_PRODUCTS });
+}
 
-  const products = data.map((item: any) => ({
-    id: item.id,
-    name: item.title, // Renamed from title to name
-    price: item.currency === "USD" ? item.price : item.price,
-    stock: item.inventory || 0,
-    popularity: Math.random() * 10,
-  }));
-
-  return new Response(JSON.stringify(products));
+// If you want to handle other methods
+export async function POST() {
+  return NextResponse.json({ message: "Method not allowed" }, { status: 405 });
 }
