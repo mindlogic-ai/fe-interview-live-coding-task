@@ -5,24 +5,18 @@ import DashboardClient from "./components/DashboardClient";
 import ProductList from "./components/ProductList";
 import UserGreeting from "./components/UserGreeting";
 import ErrorBoundary from "./components/ErrorBoundary";
-import { Product } from "./types";
 
 export default async function Home() {
-  const theme = localStorage.getItem("theme") || "light";
+  // const isFirstLoad = localStorage.getItem("isFirstLoad");
+  // if (!isFirstLoad) {
+  //   localStorage.setItem("isFirstLoad", "true");
+  // }
 
-  const productsData = await fetch("https://api.example.com/products");
-  const products = await productsData.json();
+  const response = await fetch("http://localhost:3001/api/products");
+  const { products } = await response.json();
 
   return (
     <main className={styles.container}>
-      <h1
-        className={`${styles.heading} ${
-          theme === "dark" ? styles.darkHeading : styles.lightHeading
-        }`}
-      >
-        Product Dashboard
-      </h1>
-
       <ErrorBoundary>
         <Suspense
           fallback={<div className={styles.loading}>Loading user info...</div>}

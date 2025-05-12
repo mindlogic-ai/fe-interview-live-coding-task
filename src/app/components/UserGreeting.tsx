@@ -3,7 +3,7 @@ import styles from "../page.module.css";
 import { User } from "../types";
 
 async function getUserData(): Promise<User> {
-  const res = await fetch("https://api.example.com/user", {
+  const res = await fetch("http://localhost:3001/api/user", {
     next: { revalidate: 0 },
   });
 
@@ -19,7 +19,7 @@ export default async function UserGreeting() {
   const userData = await getUserData();
 
   return (
-    <div className={styles.userGreeting}>
+    <div>
       <h2 className={styles.greetingText}>
         Welcome back, {userData.user.name}!
       </h2>
