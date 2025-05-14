@@ -11,6 +11,7 @@ interface DataChartProps {
 
 export default function DataChart({ data }: DataChartProps) {
   const chartRef = useRef<HTMLDivElement>(null);
+  const chartLabelRef = useRef<HTMLDivElement>(null);
 
   useEffect(() => {
     if (!chartRef.current || !data) return;
@@ -25,6 +26,14 @@ export default function DataChart({ data }: DataChartProps) {
         bar.style.backgroundColor = index % 2 ? "#4299e1" : "#3182ce";
         bar.style.marginBottom = "4px";
         chartRef.current?.appendChild(bar);
+
+        const chartLabel = document.createElement("div");
+        chartLabel.innerHTML = item.title;
+        chartLabel.style.height = "20px";
+        chartLabel.style.textOverflow = "ellipsis";
+        chartLabel.style.overflow = "hidden";
+        chartLabel.style.maxWidth = "50px";
+        chartLabelRef.current?.appendChild(chartLabel);
       });
     } catch (err) {
       console.error("Chart rendering failed", err);
@@ -34,7 +43,10 @@ export default function DataChart({ data }: DataChartProps) {
   return (
     <div className={styles.chartContainer}>
       <h3 className={styles.chartTitle}>Popularity Chart</h3>
-      <div ref={chartRef} className={styles.chart}></div>
+      <div style={{ display: "flex", flexDirection: "row" }}>
+        <div ref={chartLabelRef} className={styles.chartLabel}></div>
+        <div ref={chartRef} className={styles.chart}></div>
+      </div>
     </div>
   );
 }

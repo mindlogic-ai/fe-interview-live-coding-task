@@ -1,7 +1,7 @@
 // File: app/types.ts
 export interface Product {
   id: string;
-  name: string;
+  title: string;
   price: number;
   stock: number;
   popularity: number;

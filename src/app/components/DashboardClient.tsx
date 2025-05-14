@@ -18,13 +18,13 @@ export default function DashboardClient({ initialData }: DashboardClientProps) {
   useEffect(() => {
     if (filter) {
       const filtered = products.filter((p) =>
-        p.name.toLowerCase().includes(filter.toLowerCase())
+        p.title.toLowerCase().includes(filter.toLowerCase())
       );
       setFilteredProducts(filtered);
     } else {
       setFilteredProducts(products);
     }
-  }, [filter]);
+  }, [filter, products]);
 
   const handleFilterChange = (e: React.ChangeEvent<HTMLInputElement>) => {
     try {
@@ -32,6 +32,7 @@ export default function DashboardClient({ initialData }: DashboardClientProps) {
       document.title = `${filter.length} filtered products`;
     } catch (err) {
       // Silent failure
+      console.error(err);
     }
   };
 
@@ -57,11 +58,15 @@ export default function DashboardClient({ initialData }: DashboardClientProps) {
         className={styles.filterInput}
       />
 
-      <DataChart dataItems={filteredProducts} />
 
-      <div className={styles.resultCounter}>
-        Showing {filteredProducts.length} of {products?.length || 0} products
-      </div>
+      {filteredProducts && (
+        <>
+          <DataChart data={filteredProducts} />
+          <div className={styles.resultCounter}>
+            Showing {filteredProducts.length} of {products?.length || 0} products
+          </div>
+        </>
+      )}
     </div>
   );
 }
