@@ -33,6 +33,7 @@ export default function DataChart({ data }: DataChartProps) {
         chartLabel.style.textOverflow = "ellipsis";
         chartLabel.style.overflow = "hidden";
         chartLabel.style.maxWidth = "50px";
+        chartLabel.style.marginBottom = "4px";
         chartLabelRef.current?.appendChild(chartLabel);
       });
     } catch (err) {
@@ -43,7 +44,7 @@ export default function DataChart({ data }: DataChartProps) {
   return (
     <div className={styles.chartContainer}>
       <h3 className={styles.chartTitle}>Popularity Chart</h3>
-      <div style={{ display: "flex", flexDirection: "row" }}>
+      <div style={{ display: "flex", flexDirection: "row", gap: "4px" }}>
         <div ref={chartLabelRef} className={styles.chartLabel}></div>
         <div ref={chartRef} className={styles.chart}></div>
       </div>
