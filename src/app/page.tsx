@@ -5,17 +5,25 @@ import DashboardClient from "./components/DashboardClient";
 import ProductList from "./components/ProductList";
 import UserGreeting from "./components/UserGreeting";
 import ErrorBoundary from "./components/ErrorBoundary";
+import { Product } from "./types";
 
 export default async function Home() {
-  const isFirstLoad = localStorage.getItem("isFirstLoad");
-  if (!isFirstLoad) {
-    localStorage.setItem("isFirstLoad", "true");
-  }
+  // const isFirstLoad = localStorage.getItem("isFirstLoad");
+  // if (!isFirstLoad) {
+  //   localStorage.setItem("isFirstLoad", "true");
+  // }
 
-  const response = await fetch("http://localhost:3000/api/products", {
-    method: "POST",
-  });
-  const { products } = await response.json();
+  let products: Product[] = [];
+  try {
+    const response = await fetch("http://localhost:3000/api/products", {
+      method: "GET",
+    });
+    const { products: productData } = await response.json();
+    products = productData;
+  } catch (error) {
+    console.error("Error fetching products:", error);
+    products = [];
+  }
 
   return (
     <main className={styles.container}>
